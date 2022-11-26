@@ -26,7 +26,7 @@ function play() {
 
     // Shows the created array and the choice of the player
     document.getElementById("main").innerHTML = ("The created array was: " + array.toString());
-    document.getElementById("choice").innerHTML = ("You choose: " + num + " and it appeared " + + count + " times within the array");
+    document.getElementById("choice").innerHTML = ("You choose: " + num + " and it appeared " + count + " times within the array");
 
     // Ouput if the player won or lost (found the number within the array)
     if (count <= 0) {
